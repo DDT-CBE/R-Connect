@@ -1,0 +1,111 @@
+/* Container for the form */
+.sellerform-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Form styles */
+  .sellerform-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin-top: 80px;
+  }
+  
+
+  
+  /* Input field styles */
+  .sellerform-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Role checkbox section */
+  .sellerform-role {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Button styles */
+  .sellerform-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .sellerform-button:hover {
+    background-color: #218838;
+  }
+  
+
+
+  /* Main Features Label */
+.sellerform-label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin: 10px;
+  display: block;
+}
+
+/* Main Amenity Container */
+.amenity-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Each Main Amenity Item */
+.amenity-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Checkbox Styling */
+.amenity-item input[type="checkbox"],
+.subcategory-item input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: #28a745;
+}
+
+/* Subcategory Wrapper (Keeps them below the main heading) */
+.subcategory-container {
+  display: flex;
+  flex-direction: column; /* Ensure subcategories are stacked below */
+  margin-left: 30px;
+  padding-top: 5px;
+}
+
+/* Each Subcategory Checkbox & Label */
+.subcategory-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .9rem;
+  font-weight: 500;
+  margin-top: 10px;
+}

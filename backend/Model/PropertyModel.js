@@ -23,7 +23,7 @@ const PropertySchema = new mongoose.Schema({
     googleMap: String, 
     launchDate: Date,
     plotPrice: Number,
-    approve: Boolean,
+    approve: { type: Boolean, default: true },
     
     plot: {  
         one: { type: Boolean, default: true },
